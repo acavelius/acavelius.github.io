@@ -7,9 +7,9 @@ define( "RECIPIENT_EMAIL", "contact@smart-energeia.com" );
 
 // Read the form values
 $success = false;
-$userName = isset( $_POST['username'] ) ? preg_replace( "/[^\.\-\' a-zA-Z0-9]/", "", $_POST['username'] ) : "";
+$userName = isset( $_POST['nom'] ) ? preg_replace( "/[^\.\-\' a-zA-Z0-9]/", "", $_POST['nom'] ) : "";
 $senderEmail = isset( $_POST['email'] ) ? preg_replace( "/[^\.\-\_\@a-zA-Z0-9]/", "", $_POST['email'] ) : "";
-$senderSubject = isset( $_POST['subject'] ) ? preg_replace( "/[^\.\-\_\@a-zA-Z0-9]/", "", $_POST['subject'] ) : "";
+$senderSubject = isset( $_POST['societe'] ) ? preg_replace( "/[^\.\-\_\@a-zA-Z0-9]/", "", $_POST['societe'] ) : "";
 $message = isset( $_POST['message'] ) ? preg_replace( "/(From:|To:|BCC:|CC:|Subject:|Content-Type:)/", "", $_POST['message'] ) : "";
 
 // If all values exist, send the email

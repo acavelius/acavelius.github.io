@@ -16,6 +16,16 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
 <!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script><![endif]-->
 <!--[if lt IE 9]><script src="js/respond.js"></script><![endif]-->
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-142481212-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-142481212-1');
+</script>
 </head>
 
 <body>
@@ -73,7 +83,7 @@
                             <div class="collapse navbar-collapse clearfix" id="navbarSupportedContent">
                                 <ul class="navigation clearfix">
                                     <li><a href="index.html">Accueil</a></li>
-                                    <li><a href="about.html">A propos de nous</a></li>
+                                    <li><a href="nous.html">A propos de nous</a></li>
                                     <li class="dropdown"><a href="#">Notre accompagnement</a>
                                         <ul>
                                             <li><a href="transformation-digitale.html">Transformation Numérique Bâtimentaire</a></li>
@@ -118,7 +128,7 @@
     </header>
 
     <!--Page Title-->
-    <section class="page-title" style="background-image:url(images/background/13.jpg);">
+    <section class="page-title" style="background-image:url(images/background/151.jpg);">
         <div class="auto-container">
             <div class="inner-container clearfix">
                 <h1>Nous Contacter</h1>
@@ -131,24 +141,25 @@
     <!-- Contact Form Section -->
     <section class="contact-form-section">
         <div class="auto-container">
-            <div class="title"><h2>Leave a Message</h2></div>
+            <br>
+            <div class="title"><h2>Laissez un message</h2></div>
             <div class="contact-form">
                 <!--Comment Form-->
                 <form method="post" action="sendemail.php" id="contact-form">
                     <div class="row clearfix">
                         <div class="col-lg-4 col-md-6 col-sm-12 form-group">
-                            <label>Votre Nom *</label>
+                            <label>Votre Nom</label>
                             <input type="text" name="nom" required="">
                         </div>
 
                         <div class="col-lg-4 col-md-6 col-sm-12 form-group">
-                            <label>Votre Mail *</label>
+                            <label>Votre Mail</label>
                             <input type="email" name="email" required="">
                         </div>
 
                         <div class="col-lg-4 col-md-12 col-sm-12 form-group">
                             <label>Votre Société</label>
-                            <input type="text" name="société">
+                            <input type="text" name="societe" required="">
                         </div>
 
                         <div class="col-lg-12 col-md-12 col-sm-12 form-group">
