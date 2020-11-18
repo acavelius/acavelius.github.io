@@ -1,1 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Smart EnergeIA</title>
+<!-- Stylesheets -->
+<link href="css/bootstrap.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+<link href="css/responsive.css" rel="stylesheet">
 
+<link rel="shortcut icon" href="images/logoSmartEnergeIAmini.png" type="image/x-icon">
+<link rel="icon" href="images/logoSmartEnergeIAmini.png" type="image/x-icon">
+
+<!-- Responsives -->
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+<!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script><![endif]-->
+<!--[if lt IE 9]><script src="js/respond.js"></script><![endif]-->
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-142481212-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-142481212-1');
+</script>
+</head>
+
+<body>
+
+<div class="page-wrapper">
+    <!-- Preloader -->
+    <div class="preloader"></div>
+
+    <!-- Header Span -->
+    <span class="header-span"></span>
+
+    <header class="main-header">
+        <!--Header Top-->
+        <div class="header-top">
+            <div class="auto-container">
+                <div class="inner-container clearfix">
+                    <div class="top-left">
+                        <div class="text">Votre conseil en Smart Building</div>
+                    </div>
+                    <div class="top-right clearfix">
+                        <ul class="info-box">
+                            <li><i class="fa fa-phone"></i>(+33) 6 45 07 34 78</li>
+                            <li><i class="fa fa-envelope"></i><a href="mailto:contact@smart-energeia.com">contact@smart-energeia.com</a></li>
+                            <li>
+                                <ul class="social-icon-one clearfix">
+                                    <!-- <li>Follow :</li> -->
+                                    <li><a href="#"></a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Header Top -->
+
+        <!-- Header Upper -->
+        <div class="header-upper">
+            <div class="inner-container">
+                <div class="auto-container clearfix">
+                    <div class="logo-outer">
+                        <div class="logo"><a href="index.html"><img src="images/logoSmartEnergeIA.png" alt="" title=""></a></div>
+                    </div>
+
+                    <div class="nav-outer clearfix">
+                        <!-- Main Menu -->
+                        <nav class="main-menu navbar-expand-md navbar-light">
+                            <div class="navbar-header">
+                                <!-- Togg le Button -->
+                                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                                    <span class="icon fa fa-bars"></span>
+                                </button>
+                            </div>
+
+                            <div class="collapse navbar-collapse clearfix" id="navbarSupportedContent">
+                                <ul class="navigation clearfix">
+                                    <li><a href="index.html">Accueil</a></li>
+                                    <li><a href="nous.html">A propos de nous</a></li>
+                                    <li class="dropdown"><a href="#">Notre accompagnement</a>
+                                        <ul>
+                                            <li><a href="transformation-digitale.html">Transformation Numérique Bâtimentaire</a></li>
+                                            <li><a href="diag-performance-digitale.html">Diagnostic Performance Numérique </a></li>
+                                            <li><a href="si-smartbuilding.html">Système Information Bâtiment Intelligent</a></li>
+                                            <li><a href="bim-gem.html">BIM<br>Gestion, Exploitation, Maintenance</a></li>
+                                            <li><a href="performance-smartbuilding.html">Pilotage Performance Numérique</a></li>
+                                            <li><a href="operation-smartbuilding.html">Conduite Opérations Bâtiment Intelligent</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="dropdown"><a href="#">Références</a>
+                                        <ul>
+                                            <li><a href="cases.html">Quelques références</a></li>
+                                            <li><a href="reference-1.html">Centre innovation</a></li>
+                                            <li><a href="reference-2.html">Siège social</a></li>
+                                            <li><a href="reference-3.html">Immeuble bureaux</a></li>
+                                            <li><a href="reference-4.html">Centre aquatique</a></li>
+                                            <li><a href="reference-5.html">Groupe scolaire</a></li>
+                                            <li><a href="reference-6.html">Lycée</a></li>
+                                        </ul>
+                                   <li><a href="blog-SmartEnergeIA.html">Blog</a></li>
+                                    <li><a href="contact.html">Contact</a></li>
+                                </ul>
+                            </div>
+                        </nav>
+                        <!-- Main Menu End-->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--End Header Upper-->
+    </header>
+
+    <!--Page Title-->
+    <section class="page-title" style="background-image:url(images/background/12.jpg);">
+        <div class="auto-container">
+            <div class="inner-container clearfix">
+              <h1>Blog Smart-EnergeIA - N°1</h1>
+            </div>
+        </div>
+    </section>
+    <!--End Page Title-->
+
+    <!-- Sidebar Page Container -->
+    <div class="sidebar-page-container">
+        <div class="auto-container">
+            <div class="row clearfix">
+                <!--Content Side-->
+                <div class="content-side col-lg-8 col-md-12 col-sm-12">
+                    <div class="blog-single">
+                        <!-- News Block Three -->
+                        <div class="news-block-three">
+                            <div class="inner-box">
+                                <!-- Image Box -->
+                                <div class="image-box wow fadeIn">
+                                    <figure class="image"><img src="images/resource/blog-1.jpg" alt=""></figure>
+                                </div>
+                                <!-- Lower Content -->
+                                <div class="lower-content">
+                                   <div class="title-box">
+                                        <ul class="tags">
+                                            <li class="bg-pink"><a href="blog-SmartBuilding.html">Smart Building</a></li>
+                                            <li class="bg-yellow"><a href="blog-Bim.html">BIM</a></li>
+                                        </ul>
+                                        <div class="date"><i class="fa fa-calendar"></i> 16 septembre 2020 </div> 
+                                        <h4><a href="blog-single-1.html">La crise du COVID-19, une opportunité pour digitaliser vos bâtiments et identifier les « Quick Wins»</a></h4>
+                                    </div>
+                                    <div class="text-box clearfix">
+                                        <sup>L</sup><p>a propagation rapide du COVID-19 a provoqué des changements radicaux dans l’organisation du travail et nos modes de vie. Contraints par le confinement ou incités à rester chez eux, les employés passent au télétravail, ou de temps en temps se déplacent à leur bureau. L’immobilier d’entreprise, les bâtiments publics, les hôtels, etc… ont ainsi vu leur taux de charge fluctuant aléatoirement ou se vider complètement de toutes activités.</p>
+                                        <p>Vous, Property ou Facility Managers, êtes confrontés à des problèmes de gestion, d’exploitation et d’optimisation sans précédent. La COVID-19 a définitivement mis en évidence les limites technologiques des bâtiments, l’absence d’une Gestion Technique de Bâtiment (GTB) opérationnelle ou encore moins d’un système d’information bâtimentaire qui en ferait des smart Buildings.</p>
+                                        <p>Par exemple, on exploite dans la majorité des cas les bâtiments suivant des calendriers d’exploitation statiques, sans intelligence, sans la possibilité de les adapter en fonction de la présence des usagers qui est rarement détectée. Alors, comment gérer le chauffage, la ventilation, la climatisation, les éclairages au regard des faibles taux d’occupation ? Comment piloter efficacement les bâtiments et optimiser la consommation d’énergie dans ces conditions ? Comment accéder en toute sécurité aux flux de données pour les analyser ?</p>
+                                        <blockquote>
+                                            <span class="icon">"</span>
+                                            <p>Le constat est ce qu'il est, mais cette période peut tout à fait être mise à profit pour trouver des solutions à court terme, des « quick wins » pour amortir certaines pertes en période de faible occupation et aussi trouver le chemin de la performance et de la valorisation des biens immobiliers.</p>
+                                        </blockquote>
+                                        <p><sup>P</sup><p>rofitez de ce cette période incertaine, à faible occupation, pour évaluer les méthodes et outils en place et mettre en évidence les inefficacités cachées.</p>
+                                        <p><sup>C</sup><p>ommencez par collecter les données d’exploitation existantes pour :</p>
+                                        <ul class="list-style-one">
+                                            <li>permettre de trouver des opportunités d’optimisations</li>
+                                            <li>gérer les situations critiques</li>
+                                            <li>réajuster les calendriers et les séquences saisonnières des équipements CVC en les adaptant à la charge du bâtiment fluctuante.</li>
+                                            <li>catégoriser toutes les données que vous auriez voulu collecter dans le cadre d’une implémentation idéale d’un BIM Gestion, Exploitation, Maintenance.</li>
+                                        </u>
+                                        <p><sup>C</sup><p>omplétez votre approche en :</p>
+                                        <ul class="list-style-one">
+                                            <li>explorant les technologies émergentes dont les jumeaux numériques, les usages de l’IA, de l’apprentissage automatique, le déploiement des IoT...<li>
+                                            <li>identifiant les projets opérationnels autour du BIM, les planifier, les chiffrer pour l’ensemble de votre parc immobilier</li>
+                                            <li>se rapprochant de la Direction des services informatiques pour combiner efficacement les technologies de l’information et celles des opérations.</li>
+                                        </ul>
+                                        <p><sup>F</sup><p>inalement, définez un plan stratégique d’optimisation étape par étape de la performance et l’exploitabilité des bâtiments.</p>
+                                        <p></p>
+                                        <blockquote>
+                                            <span class="icon">"</span>
+                                          <p>Transformez ainsi cette crise en opportunité!</p>
+                                          <p>En lançant cette démarche digitale, vous trouverez rapidement la trajectoire qui mènera vos bâtiments à être exploitables à distance, automatisables et qui valorisera à terme votre patrimoine immobilier dès lors que la crise du COVID19 ne sera plus qu’un mauvais souvenir!</p>
+                                        </blockquote>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Other Option -->
+              
+                        <div class="comment-form">
+                            <div class="group-title"><h4>Laisser un message</h4></div>
+                            <!--Comment Form-->
+                            <form method="post" action="blog.html">
+                                <div class="row clearfix">
+                                    <div class="col-lg-6 col-md-12 col-sm-12 form-group">
+                                        <label>Votre Nom</label>
+                                        <input type="text" name="username" required="">
+                                    </div>
+                                    
+                                    <div class="col-lg-6 col-md-12 col-sm-12 form-group">
+                                        <label>Votre email</label>
+                                        <input type="email" name="email" required="">
+                                    </div>
+                                    
+                                    <div class="col-lg-12 col-md-12 col-sm-12 form-group">
+                                        <label>Vos commentaires</label>
+                                        <textarea name="message"></textarea>
+                                    </div>
+                                    
+                                    <div class="col-lg-4 col-md-12 col-sm-12 form-group">
+                                        <button class="theme-btn btn-style-one" type="submit" name="submit-form">Envoyer votre commentaire <i class="flaticon-right-arrow"></i></button>
+                                    </div> 
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+                <!--Sidebar Side-->
+                <div class="sidebar-side col-lg-4 col-md-12 col-sm-12 col-xs-12">
+                    <aside class="sidebar">
+                        <!-- Category Widget -->
+                        <div class="sidebar-widget categories">
+                            <div class="sidebar-title"><h3>Notre Accompagnement</h3></div>
+                            <div class="widget-content">
+                                <ul class="category-list">               
+                                  <li><a href="transformation-digitale.html">Transformation Numérique Bâtimentaire</a></li>
+                                  <li><a href="diag-performance-digitale.html">Diagnostic Performance Numérique </a></li>
+                                  <li><a href="si-smartbuilding.html">Système Information Bâtiment Intelligent</a></li>
+                                  <li><a href="bim-gem.html">BIM<br>Gestion, Exploitation, Maintenance</a></li>
+                                  <li><a href="performance-smartbuilding.html">Pilotage Performance Numérique</a></li>
+                                  <li><a href="operation-smartbuilding.html">Conduite Opérations Bâtiment Intelligent</a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <!-- Testimonial Widget -->
+                        <div class="sidebar-widget testimonial-widget">
+                            <div class="sidebar-title"><h3>Citations</h3></div>
+                            <div class="widget-content">
+                                <div class="single-item-carousel owl-carousel owl-theme">
+                                    <!-- Testimonial Block -->
+                                    <div class="testimonial-block-two">
+                                        <div class="info-box">
+                                            <h4 class="name">Lord Kelvin</h4>
+                                            <span class="designation">Physicien, 1824-1907</span>
+                                        </div>
+                                        <div class="text"> “If you cannot measure it, you cannot improve it."</div>
+                                    </div>
+
+                                    <!-- Testimonial Block -->
+                                    <div class="testimonial-block-two">
+                                        <div class="info-box">
+                                            <h4 class="name">W.Edwards Deming</h4>
+                                            <span class="designation">Statisticien, 1900-1993</span>
+                                        </div>
+                                        <div class="text"> “ You can’t manage what you don’t measure." </div>
+                                    </div>
+                                </div>
+                            </div
+                        </div>
+
+                        <!-- Post Widget -->
+                        <div class="sidebar-widget post-widget">
+                            <div> </div>
+                            <div class="sidebar-title"><h3>Dernier article</h3></div>
+                            <div class="widget-content">
+                                <!-- Post -->
+                                <article class="post">
+                                    <div class="thumb"><a href="blog-single-1.html"><img src="images/resource/post-thumb-1.jpg" alt=""></a></div>
+                                    <h3><a href="blog-single-1.html">La crise du COVID-19, une opportunité pour digitaliser vos bâtiments et identifier les « Quick Wins».</a></h3>
+                                    <ul class="info">
+                                        <li><i class="fa fa-calendar"></i>16 septembre 2020</li>
+                                        <li><i class="fa fa-user"></i> Laurent CAVÉLIUS</li>
+                                    </ul>
+                                </article>
+                            </div>
+                        </div>
+
+                         <!-- Text Widget -->
+                        <div class="sidebar-widget categories">
+                            <div class="sidebar-title"><h3>Nous contacter</h3></div>
+                            <div class="widget-content">
+                                <ul class="contact-list">
+                                    <li><span>Phone :</span> +33(0)645073478</li>
+                                    <li><span>Email :</span> <a href="#">contact@smart-energeia.com</a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <!-- Popular tags -->
+                        <div class="sidebar-widget tags-widget">
+                            <div class="sidebar-title"><h3>Tags</h3></div>
+                            <ul class="tag-list clearfix">
+                                <li><a href="#">Smart Building</a></li>
+                                <li><a href="#">BIM</a></li>
+                                <li><a href="#">Transformation digitale</a></li>
+                                <li><a href="#">Statégie digitale</a></li>
+                                <li><a href="#">Intelligence</a></li>
+                                <li><a href="#">Covid19</a></li>
+                                <li><a href="#">FM</a></li>
+                                <li><a href="#">Property management</a></li>
+                            </ul> 
+                        </div>
+                    </aside>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--End Blog List -->
+
+    <!-- Main Footer -->
+    <footer class="main-footer">
+        <!--Footer Bottom-->
+        <div class="footer-bottom">
+            <div class="footer-bottom">
+            <div class="auto-container">
+                <div class="inner-container clearfix">
+                    <div class="copyright-text">
+                        <p>&copy;  2019 <a href="index.html">Smart EnergeIA</a> | All rights reserved.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End Main Footer -->
+
+</div>  
+<!--End pagewrapper-->
+
+<!--Scroll to top-->
+<div class="scroll-to-top scroll-to-target" data-target="html"><span class="fa fa-angle-double-up"></span></div>
+
+<!--Scroll to top-->
+<script src="js/jquery.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/jquery-ui.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.fancybox.js"></script>
+<script src="js/owl.js"></script>
+<script src="js/wow.js"></script>
+<script src="js/appear.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
